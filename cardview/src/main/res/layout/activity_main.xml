@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--普通使用效果-->
+<!--<android.support.v7.widget.CardView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--xmlns:android="http://schemas.android.com/apk/res/android"-->
+
+
+    <!--&gt;-->
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="70dp"-->
+        <!--android:layout_margin="10dp"-->
+        <!--android:gravity="center_horizontal|center_vertical"-->
+        <!--android:padding="10dp"-->
+        <!--android:text="普通使用效果"-->
+        <!--android:textColor="#000000"-->
+        <!--android:textSize="20sp" />-->
+<!--</android.support.v7.widget.CardView>-->
+
+
+<!--增加背景色和远郊的效果-->
+<!--<android.support.v7.widget.CardView android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--android:layout_marginTop="10dp"-->
+    <!--app:cardBackgroundColor="@color/colorPrimary"-->
+    <!--app:cardCornerRadius="10dp"-->
+    <!--xmlns:android="http://schemas.android.com/apk/res/android">-->
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="70dp"-->
+        <!--android:layout_margin="10dp"-->
+        <!--android:gravity="center_horizontal|center_vertical"-->
+        <!--android:padding="10dp"-->
+        <!--android:text="添加背景色及圆角"-->
+        <!--android:textColor="#000000"-->
+        <!--android:textSize="20sp" />-->
+<!--</android.support.v7.widget.CardView>-->
+    <!--设置Z轴阴影
+            app:cardElevation  设置z轴阴影的大小
+            app：cardCornerRadius   设置卡片的圆角大小（半径）
+               app：cardBackgroundColor  卡片的背景色
+    -->
+<!--<android.support.v7.widget.CardView android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--android:layout_marginTop="10dp"-->
+    <!--app:cardBackgroundColor="@color/colorAccent"-->
+    <!--app:cardCornerRadius="10dp"-->
+    <!--app:cardElevation="20dp"-->
+    <!--xmlns:android="http://schemas.android.com/apk/res/android">-->
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="70dp"-->
+        <!--android:layout_margin="10dp"-->
+        <!--android:gravity="center_horizontal|center_vertical"-->
+        <!--android:padding="10dp"-->
+        <!--android:text="设置z轴阴影"-->
+        <!--android:textColor="#000000"-->
+        <!--android:textSize="20sp" />-->
+<!--</android.support.v7.widget.CardView>-->
+    <!--Ripple效果：点击时的涟漪效果
+        android:clickable="true"
+        android:foreground     添加涟漪
+    -->
+
+<!--<android.support.v7.widget.CardView android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--android:layout_marginTop="10dp"-->
+    <!--android:clickable="true"-->
+    <!--android:foreground="?attr/selectableItemBackground"-->
+    <!--app:cardBackgroundColor="@color/colorAccent"-->
+    <!--app:cardCornerRadius="10dp"-->
+    <!--xmlns:android="http://schemas.android.com/apk/res/android">-->
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="70dp"-->
+        <!--android:layout_margin="10dp"-->
+        <!--android:gravity="center_horizontal|center_vertical"-->
+        <!--android:padding="10dp"-->
+        <!--android:text="Ripple效果"-->
+        <!--android:textColor="#000000"-->
+        <!--android:textSize="20sp" />-->
+<!--</android.support.v7.widget.CardView>-->
+    <!--lift_on_touch:一个触摸抬起的交互效果
+           与Ripple效果共同使用
+           在三维立体空间上的Z轴发生位移，从而产生一个阴影加深的效果
+            android:stateListAnimator   添加阴影
+            tools:targetApi="LOLLIPOP" 可写可不写
+    -->
+<android.support.v7.widget.CardView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginTop="10dp"
+    android:clickable="true"
+    android:foreground="?attr/selectableItemBackground"
+    android:stateListAnimator="@drawable/lift_on_touch"
+    app:cardBackgroundColor="@color/cardview_light_background"
+    app:cardCornerRadius="10dp"
+    tools:targetApi="LOLLIPOP"
+    xmlns:android="http://schemas.android.com/apk/res/android">//tools:targetApi写不写都行
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_margin="10dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:padding="10dp"
+        android:text="lift_on_touch"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+</android.support.v7.widget.CardView>
+

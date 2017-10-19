@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/PullToRefreshLibrary" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/appone" />
+            <option value="$PROJECT_DIR$/cardview" />
+            <option value="$PROJECT_DIR$/framemonthproject" />
+            <option value="$PROJECT_DIR$/framemonthtext" />
+            <option value="$PROJECT_DIR$/library" />
+            <option value="$PROJECT_DIR$/monthtext" />
+            <option value="$PROJECT_DIR$/myslisingmenu" />
+            <option value="$PROJECT_DIR$/myxutils" />
+            <option value="$PROJECT_DIR$/navigationview" />
+            <option value="$PROJECT_DIR$/navigationviewpractice" />
+            <option value="$PROJECT_DIR$/nohttp" />
+            <option value="$PROJECT_DIR$/okhttp" />
+            <option value="$PROJECT_DIR$/pullrefreshpractice" />
+            <option value="$PROJECT_DIR$/pulltorefreshdemo2" />
+            <option value="$PROJECT_DIR$/recyclerview" />
+            <option value="$PROJECT_DIR$/recyclerviewdemo" />
+            <option value="$PROJECT_DIR$/swipeRefreshLayoutDemo" />
+            <option value="$PROJECT_DIR$/swiperefreshlayout" />
+            <option value="$PROJECT_DIR$/toolbar" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

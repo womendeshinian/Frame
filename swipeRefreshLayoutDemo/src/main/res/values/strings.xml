@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SwipeRefreshLayoutDemo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_text_view">TextViewActivity</string>
+    <string name="title_activity_list_view">ListViewActivity</string>
+</resources>

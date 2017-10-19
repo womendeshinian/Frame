@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bg5"
+    >
+
+  <TextView
+      android:id="@+id/tvName"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="登录用户名"
+      android:textSize="24sp"
+      android:textStyle="bold"
+      android:layout_marginBottom="17dp"
+      android:layout_alignBottom="@+id/ivPic"
+      android:layout_toRightOf="@+id/ivSearch"
+      android:layout_toEndOf="@+id/ivSearch" />
+
+  <ImageView
+      android:id="@+id/ivShoucang"
+      android:layout_width="30dp"
+      android:layout_height="30dp"
+      app:srcCompat="@drawable/user"
+      android:layout_marginTop="17dp"
+      android:layout_below="@+id/ivSearch"
+      android:layout_alignLeft="@+id/ivSearch"
+      android:layout_alignStart="@+id/ivSearch" />
+
+  <ImageView
+      android:id="@+id/ivSearch"
+      android:layout_width="30dp"
+      android:layout_height="30dp"
+      app:srcCompat="@drawable/love5"
+      android:layout_marginTop="56dp"
+      android:layout_below="@+id/ivPic"
+      android:layout_centerHorizontal="true" />
+
+  <TextView
+      android:id="@+id/tvLove"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="我的收藏"
+      android:textSize="18sp"
+      android:layout_alignBottom="@+id/ivShoucang"
+      android:layout_alignLeft="@+id/tvSearch"
+      android:layout_alignStart="@+id/tvSearch" />
+
+
+  <TextView
+      android:id="@+id/tvSearch"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="搜  索"
+      android:textSize="18sp"
+      android:layout_above="@+id/ivShoucang"
+      android:layout_toRightOf="@+id/ivSearch"
+      android:layout_toEndOf="@+id/ivSearch"
+      android:layout_marginLeft="22dp"
+      android:layout_marginStart="22dp" />
+
+  <TextView
+      android:id="@+id/tvExit"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginEnd="31dp"
+      android:layout_marginRight="31dp"
+      android:text="退出登录？"
+      android:layout_marginTop="40dp"
+      android:layout_below="@+id/tvAsked"
+      android:layout_alignParentRight="true"
+      android:layout_alignParentEnd="true" />
+
+  <ImageView
+      android:id="@+id/ivPic"
+      android:layout_width="70dp"
+      android:layout_height="70dp"
+      android:visibility="visible"
+      android:src="@drawable/love2"
+      android:layout_marginTop="109dp"
+      android:layout_alignParentTop="true"
+      android:layout_toLeftOf="@+id/ivSearch"
+      android:layout_toStartOf="@+id/ivSearch" />
+
+  <TextView
+      android:id="@+id/tvAsked"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="25dp"
+      android:text="访问历史"
+      android:textSize="18sp"
+      android:layout_below="@+id/tvLove"
+      android:layout_alignLeft="@+id/tvLove"
+      android:layout_alignStart="@+id/tvLove" />
+
+  <ImageView
+      android:id="@+id/ivAsked"
+      android:layout_width="30dp"
+      android:layout_height="30dp"
+      app:srcCompat="@drawable/asked"
+      android:layout_alignBottom="@+id/tvAsked"
+      android:layout_alignLeft="@+id/ivShoucang"
+      android:layout_alignStart="@+id/ivShoucang" />
+
+
+</RelativeLayout>

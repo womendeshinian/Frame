@@ -1,0 +1,39 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!--<item name="windowActionBar">false</item>-->
+        <!--<item name="android:windowNoTitle">true</item>-->
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorAccent</item>
+        <item name="colorPrimaryDark">@color/colorAccent</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/Indigo_colorPrimary</item>
+        <item name="android:navigationBarColor">@color/Indigo_colorPrimaryDark</item>
+
+        <item name="android:textColorPrimary">@color/Indigo_nav_color</item>
+    </style>
+    <!-- colorPrimary ToolBar(标题栏)的颜色 -->
+    <!-- colorPrimaryDark 状态栏的颜色-->
+    <!-- android:windowBackground 内容区背景色 -->
+    <!-- android:navigationBarColor 导航栏颜色 [API 21及以上才管用]-->
+
+    <!--<style name="AppTheme.NoActionBar" parent="AppTheme">-->
+    <!--<item name="windowActionBar">false</item>-->
+    <!--<item name="windowNoTitle">true</item>-->
+    <!--</style>-->
+    <style name="Theme_ToolBar_Base_Title" parent="@style/TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="Theme_ToolBar_Base_Subtitle" parent="@style/TextAppearance.Widget.AppCompat.Toolbar.Subtitle">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="PopupMenu" parent="ThemeOverlay.AppCompat.Light" >
+        <item name="android:colorBackground">@color/colorPrimaryDark</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="overlapAnchor">false</item>
+        <!-- 将overlapAnchor属性设置成false就可以设置弹出窗口在菜单下方显示 -->
+    </style>
+</resources>
